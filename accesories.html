@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/tab-icon.png">
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="product-style.css">
+    <title>Eco Store - Categoris</title>
+</head>
+
+<body>
+    <!-- Here start navbar -->
+    <nav class="nav-item">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <li><a href="index.html" class="logo">Eco <span>Store</span></a></li>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Categoris
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div>
+                        <a href="accesories.html">Accessories</a>
+                        <a href="#">Webcams</a>
+                        <a href="#">USB Hubs</a>
+                        <a href="#">PC & Video Games</a>
+                        <a href="#">Headphones, Earphones & Accessories</a>
+                    </div>
+                    <div>
+                        <a href="#">Monitors</a>
+                        <a href="#">Webcams</a>
+                        <a href="#">USB Hubs</a>
+                        <a href="#">PC & Video Games</a>
+                        <a href="#">Headphones, Earphones & Accessories</a>
+                    </div>
+                </div>
+            </div>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <i class="far fa-heart" id="cart-heart"></i>
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        </div>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="bx bx-x" id="close-cart"></i>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+    <!-- Bg-Sidebar -->
+    <div class="bg-sidebar">
+        <div class="side-bar">
+            <h2 class="modal-title">Filter By</h2>
+            <div class="categoris">
+                <p id="p-first">Categoris</p>
+                <hr>
+                <ul class="check-box">
+                    <li>Healthy (10)</li>
+                    <li>Furniture Decor (7)</li>
+                    <li>Headphone & Audio (9)</li>
+                    <li>Laptop & PC (17)</li>
+                    <li>Mobile & Addapter (24)</li>
+                    <li>Samsung Tablet (5)</li>
+                </ul>
+            </div>
+            <!-- Categoris -->
+            <div class="categoris">
+                <p id="p-first">Brand</p>
+                <hr>
+                <ul class="check-box">
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>Accessories</li>
+                    <li>Books</li>
+                    <li>Fashion</li>
+                </ul>
+            </div>
+            <!-- Categoris -->
+            <div class="categoris">
+                <p id="p-first">Tags</p>
+                <hr>
+                <div class="first-btn-grid">
+                    <button class="btn-group">Hot Sales</button>
+                    <button class="btn-group">Shopping</button>
+                </div>
+                <div class="second-btn-grid">
+                    <button class="btn-group">New Arrivals</button>
+                    <button class="btn-group">Best Sales</button>
+                </div>
+            </div>
+        </div>
+        <!-- Shop Container -->
+        <div class="shop shop-container">
+            <h2 class="section-title">Accessories</h2>
+            <!-- Shop Content -->
+            <div class="shop-content">
+                <!-- Box 1 -->
+                <div class="product-box">
+                    <img src="image/mega-1.png" class="product-img" alt="">
+                    <h2 class="product-title">Punjabi Tadka</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">26.99 €</p>
+                        <p class="lower-price">32.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 2 -->
+                <div class="product-box">
+                    <img src="image/mega-2.png" class="product-img" alt="">
+                    <h2 class="product-title">Black Thermos</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">7.99 €</p>
+                        <p class="lower-price">8.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 3 -->
+                <div class="product-box">
+                    <img src="image/mega-3.png" class="product-img" alt="">
+                    <h2 class="product-title">Strawberry Banana</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">1.99 €</p>
+                        <p class="lower-price">3.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 4 -->
+                <div class="product-box">
+                    <img src="image/mega-4.png" class="product-img" alt="">
+                    <h2 class="product-title">Apple MacBook Pro 16</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">1100.99 €</p>
+                        <p class="lower-price">1110.00 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 5 -->
+                <div class="product-box">
+                    <img src="image/mega-5.png" class="product-img" alt="">
+                    <h2 class="product-title">Chair Plastic</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">19.99 €</p>
+                        <p class="lower-price">24.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 6 -->
+                <div class="product-box">
+                    <img src="image/mega-6.png" class="product-img" alt="">
+                    <h2 class="product-title">Rough Cuts</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">3.99 €</p>
+                        <p class="lower-price">4.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 7 -->
+                <div class="product-box">
+                    <img src="image/mega-7.png" class="product-img" alt="">
+                    <h2 class="product-title">Xbox Series X Controller</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">67.99 €</p>
+                        <p class="lower-price">72.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 8 -->
+                <div class="product-box">
+                    <img src="image/mega-8.png" class="product-img" alt="">
+                    <h2 class="product-title">Headphones Apple</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">99.99 €</p>
+                        <p class="lower-price">109.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 9 -->
+                <div class="product-box">
+                    <img src="image/mega-9.png" class="product-img" alt="">
+                    <h2 class="product-title">Watch Smart Apple</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">235.50 €</p>
+                        <p class="lower-price">249.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 10 -->
+                <div class="product-box">
+                    <img src="image/mega-10.png" class="product-img" alt="">
+                    <h2 class="product-title">Confidential Chair</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">39.99 €</p>
+                        <p class="lower-price">59.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 11 -->
+                <div class="product-box">
+                    <img src="image/mega-11.png" class="product-img" alt="">
+                    <h2 class="product-title">Apple Ipad </h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">599.99 €</p>
+                        <p class="lower-price">629.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!-- Box 12 -->
+                <div class="product-box">
+                    <img src="image/mega-12.png" class="product-img" alt="">
+                    <h2 class="product-title">Chair</h2>
+                    <!-- Icon Star -->
+                    <div class="m-top">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="d-flex">
+                        <p class="price">23.99 €</p>
+                        <p class="lower-price">34.99 €</p>
+                    </div>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Content Footer -->
+        <div class="content-footer">
+            <!-- Footer box -->
+            <div class="footer-box">
+                <!-- title Logo -->
+                <a href="index.html" class="logo-footer">
+                    <h2 class="title-logo">Eco <span>Store</span></h2>
+                </a>
+                <p>The best look anytime, anywhere.</p>
+            </div>
+            <!-- Footer box -->
+            <div class="footer-box">
+                <h3 class="text-bg-dark">Information</h3>
+                <p>Delivery</p>
+                <p>About us</p>
+                <p>Secure payment</p>
+                <p>Contact us</p>
+            </div>
+            <!-- Footer box -->
+            <div class="footer-box">
+                <h3 class="text-bg-dark">Custom Links</h3>
+                <p>Legal Notice</p>
+                <p>New products</p>
+                <p>Best sales</p>
+                <p>My account</p>
+                <p>Terms and conditions</p>
+            </div>
+            <!-- Footer box -->
+            <div class="footer-box">
+                <h3 class="text-bg-dark">My Account</h3>
+                <p>My Orders</p>
+                <p>My Personal Info</p>
+                <p>Return Policy</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="footer-row">
+            <div>Copyright © 2024 Eco Store. Powered by Eco Store.</div>
+            <div>
+                <div class="share-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button Go to Top -->
+    <button onclick="topFunction()" id="myBtn"><i class="fas fa-angle-up"></i></button>
+    <!-- JS file -->
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

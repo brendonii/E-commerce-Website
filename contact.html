@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/tab-icon.png">
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="product-style.css">
+    <title>Eco Store - Contact</title>
+</head>
+
+<body>
+    <!-- Here start navbar -->
+    <nav class="nav-item">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <li><a href="index.html" class="logo">Eco <span>Store</span></a></li>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Categoris
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div>
+                        <a href="accesories.html">Accessories</a>
+                        <a href="#">Webcams</a>
+                        <a href="#">USB Hubs</a>
+                        <a href="#">PC & Video Games</a>
+                        <a href="#">Headphones, Earphones & Accessories</a>
+                    </div>
+                    <div>
+                        <a href="#">Monitors</a>
+                        <a href="#">Webcams</a>
+                        <a href="#">USB Hubs</a>
+                        <a href="#">PC & Video Games</a>
+                        <a href="#">Headphones, Earphones & Accessories</a>
+                    </div>
+                </div>
+            </div>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <i class="far fa-heart" id="cart-heart"></i>
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        </div>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="bx bx-x" id="close-cart"></i>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+    <!-- Bg-Contact Image -->
+    <div class="bg-contact">
+        <div class="bg-content">
+            <h2>Contact</h2>
+        </div>
+    </div>
+    <!-- Here is Contact Form -->
+    <div class="contact-content">
+        <from action="#" class="form">
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" id="fname" placeholder="Your name">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" id="lname" placeholder="Your last name">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="europa">Europa</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="Write something.." style="height: 200px;"></textarea>
+            <input type="submit" value="Send" class="submit">
+        </from>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Content Footer -->
+        <div class="content-footer">
+            <!-- Footer box -->
+            <div class="footer-box">
+                <!-- title Logo -->
+                <a href="index.html" class="logo-footer">
+                    <h2 class="title-logo">Eco <span>Store</span></h2>
+                </a>
+                <p>The best look anytime, anywhere.</p>
+            </div>
+            <!-- Footer box -->
+            <div class="footer-box">
+                <h3 class="text-bg-dark">Information</h3>
+                <p>Delivery</p>
+                <p>About us</p>
+                <p>Secure payment</p>
+                <p>Contact us</p>
+            </div>
+            <!-- Footer box -->
+            <div class="footer-box">
+                <h3 class="text-bg-dark">Custom Links</h3>
+                <p>Legal Notice</p>
+                <p>New products</p>
+                <p>Best sales</p>
+                <p>My account</p>
+                <p>Terms and conditions</p>
+            </div>
+            <!-- Footer box -->
+            <div class="footer-box">
+                <h3 class="text-bg-dark">My Account</h3>
+                <p>My Orders</p>
+                <p>My Personal Info</p>
+                <p>Return Policy</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="footer-row">
+            <div>Copyright © 2024 Eco Store. Powered by Eco Store.</div>
+            <div>
+                <div class="share-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button Go to Top -->
+    <button onclick="topFunction()" id="myBtn"><i class="fas fa-angle-up"></i></button>
+    <!-- JS file -->
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
